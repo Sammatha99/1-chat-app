@@ -27,7 +27,7 @@ export default function OpenConversation() {
   return (
     <div className="d-flex flex-column flex-grow-1">
       <div
-        className="overflow-auto"
+        className="overflow-auto p-2"
         style={{
           display: "flex",
           flexGrow: 1,
@@ -46,17 +46,19 @@ export default function OpenConversation() {
               >
                 <div
                   className={`px-3 py-1 rounded ${
-                    message.fromMe && "align-items-end bg-primary text-white"
+                    message.fromMe
+                      ? "align-items-end bg-primary text-white"
+                      : "mr-auto"
                   }`}
                   style={
                     message.fromMe
-                      ? { backgroundColor: "#d8d8d8", maxWidth: "70%" }
-                      : { maxWidth: "70%" }
+                      ? { maxWidth: "70%" }
+                      : { backgroundColor: "#d8d8d8", maxWidth: "70%" }
                   }
                 >
                   {message.text}
                 </div>
-                <div className=" text-muted small">
+                <div className=" text-muted" style={{ fontSize: "10px" }}>
                   {new Date(message.time).toLocaleString()}
                 </div>
                 <div className="text-muted small">
