@@ -27,7 +27,7 @@ List the ready features:
 
 ## Screenshots
 
-![Example screenshot](./assets/imgs/demo.png)
+![Example screenshot](./assets/imgs/demo.PNG)
 
 ## Setup
 
