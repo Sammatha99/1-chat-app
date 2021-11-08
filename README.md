@@ -1,89 +1,50 @@
 # CLONE WHATAPP - SIMPLE CHAT APP
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+
+> Personal exercise how to create realtime chat application with reactJS, bootstrap and socket.io
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Features](#features)
-* [Screenshots](#screenshots)
-* [Setup](#setup)
-* [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
-<!-- * [License](#license) -->
 
+- [General Info](#general-information)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Setup](#setup)
+- [Project Status](#project-status)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-
-## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
-
+- This project is a simple chat application, you can connect to other people by there Id
+- The purpose of this project is to practice using reactJs, bootstrap and how socket.io work
 
 ## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
 
+List the ready features:
+
+- Create new contact
+- Create new conversation
+- Send message
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
 
+![Example screenshot](./assets/imgs/demo.png)
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
-
+0. Clone project: https://github.com/Sammatha99/1-chat-app.git
+1. In the Server directory `./1-chat-app-server`, you can run `npm run devStart`
+2. after the server run successfully, go to client directory `./1-chat-app-client`, you can run `yarn start` or `npm start`. the app will pop up in your browser or you can view in by open `http://localhost:3000`
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
 
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
+Project is: _complete_ .
+I still try to upgrade it more by adding more feature or improve UI/UX
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
 
+- This project was based on [this tutorial](https://www.youtube.com/watch?v=tBr-PybP_9c) and [this course](https://www.youtube.com/watch?v=ZKEqqIO7n-k)
+- Many thanks to [WebDevSimplified](https://github.com/WebDevSimplified) and [F8](https://fullstack.edu.vn/)
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@Sammatha](https://github.com/Sammatha99/) - feel free to contact me!
